@@ -6,9 +6,9 @@
             </div>
         </div>
 
+        {{#grouped_each 2 committee}}
         <div class="row">
-
-            {{#each committee}}
+            {{#each this}}
             <div class="col-md-6">
                 <div class="col-md-3">
                     <img src="{{profile_pic}}" class="img-responsive">
@@ -19,8 +19,8 @@
                 </div>
             </div> 
             {{/each}}
-
         </div>
+        {{/grouped_each}}
 
     </div>
 </div>
