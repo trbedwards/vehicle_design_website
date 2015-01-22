@@ -1,0 +1,26 @@
+<div class="committee-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Committee</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            {{#each committee}}
+            <div class="col-md-6">
+                <div class="col-md-3">
+                    <img src="{{profile_pic}}" class="img-responsive">
+                </div>
+                <div class="col-xs-9">
+                    <h4>{{name}}<br>{{title}}</h4>
+                    <p>{{bio}}</p>
+                </div>
+            </div> 
+            {{/each}}
+
+        </div>
+
+    </div>
+</div>

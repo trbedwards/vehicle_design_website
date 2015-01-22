@@ -5,4 +5,7 @@ Design adapted from "Grayscale" template at http://startbootstrap.com/template-o
 
 ## Usage
 Edit the less files and compile the css. For example: 
-    lessc less/grayscale.less > css/grayscale.css
+```lessc less/grayscale.less > css/grayscale.css```
+
+Create templates (file.handlebars) and compile like so:
+```handlebars js/templates/ > js/templates/templates.js```
