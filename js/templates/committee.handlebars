@@ -7,14 +7,17 @@
         </div>
 
         {{#grouped_each 2 committee}}
-        <div class="row">
+        <div class="row col-md-10 col-md-offset-1">
             {{#each this}}
             <div class="col-md-6">
-                <div class="col-md-3">
+                <!--<div class="col-md-3">
                     <img src="{{profile_pic}}" class="img-responsive">
-                </div>
-                <div class="col-xs-9">
-                    <h4>{{name}}<br>{{title}}</h4>
+                </div>-->
+                <!-- <div class="col-xs-9"> -->
+                <div class="col-md-12">
+                    <!-- <h4>{{name}}<br>{{title}}</h4> -->
+                    <h3 style="margin-bottom: 5px">{{name}}</h3>
+                    <h4 style="margin-bottom: 15px">{{title}}</h4>
                     <p>{{bio}}</p>
                 </div>
             </div> 
