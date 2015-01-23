@@ -1,5 +1,4 @@
 @import "variables.less";
-@import "mixins.less";
 
 body {
     width: 100%;
@@ -251,30 +250,26 @@ a {
 
 .about-section {
     width: 100%;
-    // padding: 50px 0;
     padding-top: 50px;
     padding-bottom: 100px;
-    // padding: 0 0;
     color: @light;
-    // color: @vd-pink;
-    // background: url(../img/about-bg-faded-dark.jpg) no-repeat center center scroll;
-    // background: url(../img/about-bg-faded-darker.jpg) no-repeat center center scroll;
-    // background: url(../img/about-bg-faded-darkest.JPG) no-repeat center center scroll;
     background: 
         -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
         url(../img/about-bg.JPG) 10px 10px no-repeat; 
-        // url(../img/about-bg-faded.JPG) 10px 10px no-repeat; 
-    // position: relative;
+    background: 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        url(../img/about-bg.JPG) 10px 10px no-repeat; 
+    background: 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        url(../img/about-bg.JPG) 10px 10px no-repeat; 
+    background: 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        url(../img/about-bg.JPG) 10px 10px no-repeat; 
     background-color: @dark;
-    // -webkit-background-size: inherit;
     -webkit-background-size: cover;
-    // -moz-background-size: inherit;
-    // background-size: inherit;
-    // -o-background-size: inherit;
-    // -webkit-background-size: contain;
-    // -moz-background-size: contain;
-    // background-size: contain;
-    // -o-background-size: contain;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     p {
         font-size: 1.0em;
         // text-shadow: 2px 2px #808080;
@@ -283,46 +278,24 @@ a {
 
 .contact-section {
     width: 100%;
+    padding-bottom: 100px;
     background: 
         -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
         url(../img/tower.jpg) 10px 10px no-repeat; 
-        // url(../img/about-bg-faded.JPG) 10px 10px no-repeat; 
-    // position: relative;
-    background-color: @dark;
-    // -webkit-background-size: inherit;
-    -webkit-background-size: cover;
-    // -moz-background-size: inherit;
-    // background-size: inherit;
-    // -o-background-size: inherit;
-    // -webkit-background-size: contain;
-    // -moz-background-size: contain;
-    // background-size: contain;
-    // -o-background-size: contain;
-    padding-bottom: 100px;
-}
-
-.news-section {
-    width: 100%;
-    height: 100%;
-    padding: 50px 0;
-    color: @light;
-    // background: url(../img/tower.jpg) no-repeat center center scroll;
-    // background: 
-    //     -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
-    //     url('img/tower.jpg') 10px 10px no-repeat; 
     background: 
-        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
         url(../img/tower.jpg) 10px 10px no-repeat; 
-    // background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%), url('img/tower.jpg') no-repeat center center scroll; 
-    // background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%), url('img/tower.jpg') center center no-repeat; 
-    // background: url('img/tower.jpg') center center no-repeat, -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%); 
-    // position: relative;
-    // background-color: @dark;
-    // -webkit-background-size: contain;
+    background: 
+        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+        url(../img/tower.jpg) 10px 10px no-repeat; 
+    background: 
+        linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+        url(../img/tower.jpg) 10px 10px no-repeat; 
+    background-color: @dark;
     -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // background-size: cover;
-    // -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .committee-section {
@@ -330,25 +303,6 @@ a {
     height: 100%;
     padding: 50px 0;
     color: @light;
-    // background: url(../img/tower.jpg) no-repeat center center scroll;
-    // background: 
-    //     -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
-    //     url('img/tower.jpg') 10px 10px no-repeat; 
-
-    // background: 
-    //     -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
-    //     url(../img/decking.jpg) 10px 10px no-repeat; 
-
-    // background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%), url('img/tower.jpg') no-repeat center center scroll; 
-    // background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%), url('img/tower.jpg') center center no-repeat; 
-    // background: url('img/tower.jpg') center center no-repeat, -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%); 
-    // position: relative;
-    // background-color: @dark;
-    // -webkit-background-size: contain;
-    -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // background-size: cover;
-    // -o-background-size: cover;
     p {
         font-size: 1.0em;
         text-align: left;
