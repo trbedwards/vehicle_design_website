@@ -27,16 +27,16 @@ var data = {"committee":
     },
     {
         "name": "Danielle O’Driscoll",
-        "title": "Structures Engineering Team Leader",
+        "title": "Structures Team Leader",
         "profile_pic": "img/Anonymous_emblem.svg",
-        "bio": "Hi I’m Danielle and am in 2nd year Aeronautics. My main motivation for being involved in the CubeSat project is my aspiration to contribute to space exploration. When I heard that we were doing a student run project that was actually going to put a satellite in space, I had to sign up.  I am the Structures Team Leader on the project and am really excited about being in charge of this team – we are going to be the people who get to design the majority of the CubeSat! I am currently PR officer for ICSEDS (Imperial College Students for the Exploration and Development of Space), where we build High Powered Rockets, do High Altitude Ballooning and also have a rocket engine design project. I went with the society to the National Student Space conference last year, which had loads of really cool talks on nearly everything you can imagine that is going on in the Space Industry. Who knows – our CubeSat may be able to feature in one of those talks once its up and orbiting. To give just a little bit more information in what I do at university; I’m in the orchestra, play in a folk band, and do some yoga and latin dancing on the side.  This project is a lot more technical and also quite different to anything I’ve done before so I am really looking forward to the challenge."
+        "bio": "Hi I’m Danielle and am in 2nd year Aeronautics. My main motivation for being involved in the CubeSat project is my aspiration to contribute to space exploration. I am the Structures Team Leader and am really excited about being in charge of this team – we get to design the majority of the CubeSat! I am currently PR officer for ICSEDS (Imperial College Students for the Exploration and Development of Space), where we build High Powered Rockets, do High Altitude Ballooning and have a rocket engine design project. I’m also in the orchestra, play in a folk band, and do some yoga and latin dancing on the side. This project is a lot more technical and also quite different to anything I’ve done before so I am really looking forward to the challenge."
     },
     {
         "name": "Paul Grigoras",
         "title": "Software Engineering Team Leader",
         "profile_pic": "img/Anonymous_emblem.svg",
         "bio": "I am the leader of the software engineering team in charge of the on-board and ground computing systems. My PhD (with the <a href='http://cc.doc.ic.ac.uk/'>Custom Computing Group</a>) focuses on the development of fast application-specific architectures. I am excited by the prospect of applying my research to develop reliable and efficient computing systems for CubeSat. For more information see <a href='http://paul-g.github.io/'>my personal webpage</a>."
-    },
+    }
 ]
 };
 
