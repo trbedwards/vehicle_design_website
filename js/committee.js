@@ -53,7 +53,7 @@ var data = {"committee":
         "name": "Piranavan Kirupakaran",
         "title": "Head of Manufacturing",
         "profile_pic": "img/Anonymous_emblem.svg",
-        "bio": "Hello and welcome! I'm Piranavan. Call me Pro for short. I am a second year Mechanical Engineering student. I am Head of Manufacturing in Vehicle Designs, therefore will be working on the production of Cube-sat and Eco-Marathon. I am looking forward to the use of industrial machining such as drilling, milling during the manufacturing phase along with the modelling phase through the use of Solidworks and Creo to create the back-bone structure for both projects. I am so confident that we are, as a Vehicle Design Unit, able to produce to high quality, competitive, fit for purpose products. Join the quest and work as a unit to succeed with end products in the summer of 2015. I look forward to meeting you guys."
+        "bio": "Hello and welcome! I'm Piranavan. Call me Pro for short. I am a second year Mechanical Engineering student. I am Head of Manufacturing in Vehicle Designs, therefore will be working on the production of Cube-sat and Eco-Marathon. I am looking forward to the use of industrial machining such as drilling, milling during the manufacturing phase along with the modelling phase through the use of Solidworks and Creo to create the back-bone structure for both projects. I am so confident that we are, as a Vehicle Design Unit, able to produce to high quality, competitive, fit-for-purpose products."
     }
 ]
 };
