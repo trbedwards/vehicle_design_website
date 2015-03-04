@@ -255,18 +255,36 @@ a {
     padding-top: 50px;
     padding-bottom: 100px;
     color: @light;
+
+    // background: 
+    //     -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+    //     url(@bg-image) 10px 10px no-repeat; 
+    // background: 
+    //     -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+    //     url(@bg-image) 10px 10px no-repeat; 
+    // background: 
+    //     -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+    //     url(@bg-image) 10px 10px no-repeat; 
+    // background: 
+    //     linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+    //     url(@bg-image) 10px 10px no-repeat; 
+
+    @opaque: fade(@dark,100%);
+    @semi-trans: fade(@dark,50%);
+
     background: 
-        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        -webkit-linear-gradient(top, @opaque 0%, @semi-trans 20%, @semi-trans 80%, @opaque 100%) 0 0 no-repeat, 
         url(@bg-image) 10px 10px no-repeat; 
     background: 
-        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        -o-linear-gradient(bottom, @opaque 0%, @semi-trans 20%, @semi-trans 80%, @opaque 100%) 0 0 no-repeat, 
         url(@bg-image) 10px 10px no-repeat; 
     background: 
-        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        -moz-linear-gradient(bottom, @opaque 0%, @semi-trans 20%, @semi-trans 80%, @opaque 100%) 0 0 no-repeat, 
         url(@bg-image) 10px 10px no-repeat; 
     background: 
-        linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%) 0 0 no-repeat, 
+        linear-gradient(to bottom, @opaque 0%, @semi-trans 20%, @semi-trans 80%, @opaque 100%) 0 0 no-repeat, 
         url(@bg-image) 10px 10px no-repeat; 
+
     background-color: @dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,6 +300,10 @@ a {
     .about-section('../img/about-bg.JPG');
 }
 
+.vd-news-section {
+    .about-section('../img/decking.jpg');
+}
+
 .cubesat-about-section {
     .about-section('../img/world-map.jpg');
 }
@@ -290,26 +312,30 @@ a {
     .about-section('../img/kensington.jpg');
 }
 
+// .contact-section {
+//     width: 100%;
+//     padding-bottom: 100px;
+//     background: 
+//         -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+//         url(../img/tower.jpg) 10px 10px no-repeat; 
+//     background: 
+//         -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+//         url(../img/tower.jpg) 10px 10px no-repeat; 
+//     background: 
+//         -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+//         url(../img/tower.jpg) 10px 10px no-repeat; 
+//     background: 
+//         linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
+//         url(../img/tower.jpg) 10px 10px no-repeat; 
+//     background-color: @dark;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+//     -o-background-size: cover;
+// }
+
 .contact-section {
-    width: 100%;
-    padding-bottom: 100px;
-    background: 
-        -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
-        url(../img/tower.jpg) 10px 10px no-repeat; 
-    background: 
-        -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
-        url(../img/tower.jpg) 10px 10px no-repeat; 
-    background: 
-        -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
-        url(../img/tower.jpg) 10px 10px no-repeat; 
-    background: 
-        linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.5) 100%) 0 0 no-repeat, 
-        url(../img/tower.jpg) 10px 10px no-repeat; 
-    background-color: @dark;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    .about-section('../img/tower.jpg');
 }
 
 .committee-section {
@@ -326,6 +352,10 @@ a {
     article h1,h2,h3,h4,h5,h6 {
         text-align: left;
     }
+}
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
 }
 
 /******************************************* 
@@ -369,6 +399,10 @@ a {
   color: @light;
   // text-decoration: none;
   background-color: @navbar-highlight;
+}
+
+#twitter-widget-0 { 
+    width: 100% !important; 
 }
 
 /******************************************* 
